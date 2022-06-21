@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+// import Characters from "./components/Characters";
+//
+//
+// function App() {
+//     return (
+//         <div>
+//             <Characters name={'Family'}
+//                         desk={'Семья Си́мпсонов — вымышленная семья из американского мультсериала «Симпсоны». Основной костяк семьи Симпсонов включает в себя Гомера, Мардж, Барта, Лизу и Мэгги. Они проживают в доме номер 742 по Вечнозелёной Аллее в вымышленном городе Спрингфилде, США; их телефонный номер (939) 555-0113.'}
+//                         foto={'https://upload.wikimedia.org/wikipedia/ru/thumb/a/a5/%D0%A1%D0%B8%D0%BC%D0%BF%D1%81%D0%BE%D0%BD%D1%8B.png/250px-%D0%A1%D0%B8%D0%BC%D0%BF%D1%81%D0%BE%D0%BD%D1%8B.png'}
+//             />
+//             <Characters name={'Bart'}
+//                         desk={'Барт впервые появился на экране 19 апреля 1987 года в короткометражной серии «Good Night».Получил своё второе имя в честь своего двоюродного деда и дяди Мардж.'}
+//                         foto={'https://upload.wikimedia.org/wikipedia/ru/thumb/2/29/Bart_Simpson.gif/180px-Bart_Simpson.gif'}
+//             />
+//             <Characters name={'Homer'}
+//                         desk={'Гомер является одним из самых влиятельных вымышленных персонажей на телевидении, будучи описанным в британской газете The Sunday Times как «величайший комический персонаж [современного] времени». '}
+//                         foto={'https://upload.wikimedia.org/wikipedia/ru/b/bd/Homer_Simpson.png'}
+//             />
+//             <Characters name={'Marg'}
+//                         desk={'Панически боится опоссумов (22 сезон), самый большой страх — никогда не стать бабушкой (20s8e). Мардж левша (как и большинство жителей Спрингфилда) (21s12e). Мардж боится летать на самолёте (6 сезон 11 серия «Fear of Flying»). У неё также была агорафобия в 9 серии 14 сезона.\n' +
+//                             '\n' +
+//                             'Прототипом Мардж явилась мать создателя сериала Мэтта Гроунинга — Маргарет Гроунинг'}
+//                         foto={'https://upload.wikimedia.org/wikipedia/ru/thumb/0/0b/Marge_Simpson.png/217px-Marge_Simpson.png'}
+//             />
+//             <Characters name={'Liza'}
+//                         desk={'Лиза вошла в «Энциклопедию вымышленных людей»[3], где упоминается в списках вымышленных демократов, музыкантов-любителей и детей, которые умнее большинства взрослых. В 2000 году была включена в список самых недооценённых личностей по версии журнала «Entertainment Weekly».'}
+//                         foto={'https://upload.wikimedia.org/wikipedia/ru/e/ec/Lisa_Simpson.png'}
+//             />
+//             <Characters name={`Maggie`}
+//                         desk={`Мэгги — младшая дочь Гомера и Мардж, младшая сестра Барта и Лизы. Она часто ходит, спотыкаясь о свою одежду и падает (это было фирменной шуткой  (англ.)рус. и часто использовалось в ранних сезонах). Будучи ребёнком, Мэгги не может говорить (хотя в шоу Трейси Ульман у неё были реплики). Таким образом, она является наименее заметным членом семьи Симпсонов.`}
+//                         foto={`https://upload.wikimedia.org/wikipedia/ru/9/9d/Maggie_Simpson.png`}
+//             />
+//         </div>
+//
+//     )
+// }
+//
+//
+//
+//
+// export default App;
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
